@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<control xmlns:def="Definition" xmlns="http://schemas.sitecore.net/Visual-Studio-Intellisense">
+  <WikiPageManager>
+    <FormPage>
+      <CodeBeside Type="Sitecore.Modules.Wiki.UI.WikiPageManager, Sitecore.Wiki.dll"/>
+      
+      <GridPanel id="WikPageGrid" Width="100%" Height="100%" Style="table-layout:fixed">
+         <Scrollbox id="WikiPageScrollbox" Width="100%" Height="100%" Border="none" Padding="0" GridPanel.VAlign="top">
+            <br/>
+            <Border Align="Center" style="FONT-WEIGHT: bold">
+            <Literal Text="WIKI page"/>
+            </Border>
+            <Border>
+            <Space Width="10px" /><Button Header="Set" Click="OnSetFirstClick"/> <Space Width="32px" /><Literal Text="Set page as first"/>
+            </Border>
+            <br/>
+            <Border>
+              <table border = "0" width="100%">
+                <tr>
+                  <td width="15%" valign="top">
+                    <Space Width="10px" />
+                    <Literal  style="FONT-WEIGHT: bold" Text="Page title:"/>
+                  </td>
+                  <td width="85%">
+                    <Space Width="10px" />
+                    <Literal ID="Title" Text="Title"/>
+                  </td>
+                </tr>
+              </table>
+            </Border>
+            <br/>
+            <Border Align="Center" style="FONT-WEIGHT: bold">
+            <Literal Text="Content (current variant):"/>
+            </Border>
+            <br/>
+            <Border style="border: #666666 solid;" Padding="10" Spacing="10">
+            <Literal ID="PageContent"/>
+            </Border>
+         </Scrollbox>
+      </GridPanel>
+    </FormPage>
+  </WikiPageManager>
+</control>

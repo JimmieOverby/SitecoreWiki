@@ -1,0 +1,72 @@
+----item----
+version: 1
+id: {4258EEDB-332F-449B-84FC-3F7AC2247584}
+database: master
+path: /sitecore/templates/SitecoreWiki/WikiFolder/__Standard Values
+parent: {01E527A3-A919-427E-8C6D-DB01059A8EFB}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {01E527A3-A919-427E-8C6D-DB01059A8EFB}
+templatekey: WikiFolder
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 237
+
+<?xml version="1.0" encoding="utf-16"?><r xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{1089F126-673D-4E7B-AD9D-1D49AF058A3F}" /></r>
+----version----
+language: en
+version: 1
+revision: 4adee918-5be6-47ee-9614-52910a03f2a3
+
+----field----
+field: {A3E78594-C109-4DDB-90CC-3765DE08365C}
+name: FirstPage
+key: firstpage
+content-length: 38
+
+{ACA4B2FD-B464-479C-B7EA-FBF402E1890D}
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20090309T110029
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4adee918-5be6-47ee-9614-52910a03f2a3
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20090309T110835:633721937151743277
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<control xmlns:def="Definition" xmlns="http://schemas.sitecore.net/Visual-Studio-Intellisense">
+  <VariantManager>
+    <FormPage>
+      <CodeBeside Type="Sitecore.Modules.Wiki.UI.VariantManager, Sitecore.Wiki.dll"/>
+      <br/>
+      <Border Align="Center" style="font-weight: bold">
+       <Literal Text="WIKI page variant"/>
+      </Border>
+      <Border>
+       <Space Width="10px" /><Button Header="Set" Click="OnSetCurrentClick"/> <Space Width="32px" /><Literal Text="Set variant as current"/>
+      </Border>
+      <br/>
+      <Border>
+       <Space Width="10px" /><Literal  style="font-weight: bold" Text="Variant time:"/><Space Width="10px" /><Literal ID="VariantDate" Text=""/>
+      </Border>
+      <br/>
+      <Border Align="Center" style="FONT-WEIGHT: bold">
+       <Literal Text="Content:"/>
+      </Border>
+      <br/>
+      <Border style="border: #666666 solid" Padding="10" Spacing="10">
+       <Literal ID="VariantContent" Text="1234"/>
+      </Border>
+
+    </FormPage>
+  </VariantManager>
+</control>
